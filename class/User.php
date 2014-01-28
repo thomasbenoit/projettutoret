@@ -1,6 +1,6 @@
 <?php
 
-	require_once('../databaseco.php');
+	require_once('databaseco.php');
 	
 ?>
 <?php
@@ -120,7 +120,7 @@
 	 	*recupere le nom de l'utilisateur instancier
 	 	*
 	 	*/
-	 	 public function getPseudo(){
+	 	 public function getNom(){
 	    	return $this->nom;
 	    }
 
@@ -129,8 +129,8 @@
 	 	*recupere le prenom de l'utilisateur instancier
 	 	*
 	 	*/
-		public function getPseudo(){
-	    	return $this->pseudo;
+		public function getPrenom(){
+	    	return $this->prenom;
 	    }
 		/*
 	 	*
